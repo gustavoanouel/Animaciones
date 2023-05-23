@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        background-color: rgb(94, 100, 100);
+      }
+
+      #Group1 {
+        animation: presionarBoton 3s linear infinite;
+      }
+      @keyframes presionarBoton {
+        0% {
+          transform: translateY(0);
+        }
+        25% {
+          transform: translateY(4px);
+        }
+        50% {
+          transform: translateY(8px);
+        }
+        75% {
+          transform: translateY(10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      #Group2,
+      #Group3 {
+        animation: fotografiar 2s linear infinite;
+        transform-origin: center;
+      }
+
+      @keyframes fotografiar {
+        0% {
+          transform: scale(0);
+          /* transform: rotate(20deg); */
+        }
+        10% {
+          transform: scale(0.1);
+        }
+        20% {
+          transform: scale(0.2);
+        }
+        30% {
+          transform: scale(0.3);
+        }
+        40% {
+          transform: scale(0.4);
+        }
+        50% {
+          transform: scale(0.5);
+        }
+        60% {
+          transform: scale(0.6);
+        }
+        70% {
+          transform: scale(0.7);
+        }
+        80% {
+          transform: scale(0.8);
+        }
+        90% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+</html>
